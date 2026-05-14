@@ -8,5 +8,7 @@ email_address = str(input("Enter Your Email : "))
 
 if "@" in email_address and "gmail.com" in email_address:
     print(f"Validate email : {email_address}")
+    print("Email is eligible for registration !")
 else:
     print(f"Invalid email : {email_address} ")
+    print("Email is not eligible for registration !")
